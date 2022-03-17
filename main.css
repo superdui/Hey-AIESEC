@@ -1,0 +1,168 @@
+h1{
+    color: rgb(101, 103, 224);
+margin-top: 5px;
+margin-left: 12px;
+
+}
+.hi{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(22, 41, 218, 0.514);
+    position: fixed;
+}
+h2{
+font-family: "Times New Roman", Times, serif; 
+}
+h3{
+    font-family: "Times New Roman", Times, serif; 
+    }h4{
+        font-family: "Times New Roman", Times, serif; 
+        }
+
+        html, body{
+            margin: 0;
+        }
+        
+        
+        h1{
+        color: rgb(43, 42, 42);
+        margin-top: 5px;
+        margin-left: 12px;
+        
+        }
+        .hi{
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.87);
+        position: fixed;}
+        /* animation */
+        @keyframes fadeIn {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @keyframes growth {
+            from{
+                transform: scale(var(--growth-from));
+            }
+            to{
+                transform: scale(var(--growth-to));
+            }
+        
+        }
+        /* modal */
+         .modal{
+            position: fixed;
+            top:0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            animation: fadeIn linear 0.1s;
+            
+        }
+        .modal__overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+        .modal__body{
+            --growth-from: 0.7;
+            --growth-to: 1;
+            width: 550px;
+           
+            background-color: white;
+            margin: auto;
+            position: relative;
+            z-index: 3;
+            border-radius: 5px;
+            animation: growth linear 0,1s;
+        }
+            
+        .grid{
+            width: 1300px;
+            max-width: 100%;
+            margin:0 auto;
+        }
+        .grid__full-width{
+            width: 100%;
+        }
+        .grid__row{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+        .grid__column-3{
+          margin-left: 5px;
+          margin-right: 5px;
+              width: 32%;
+              height: 600px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+        }
+        .grid__column-4{
+         
+            width: 32%;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }.grid__column-5{
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 32%;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .grid__column-6{
+            
+              width: 33%;
+              height: 300px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+        }
+        .grid__column-7{
+         
+              width: 33%;
+              height: 300px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+        }
+        .grid__column-8{
+            margin-top: 10px;
+            margin-bottom: 10px;
+              width: 33%;
+              height: 300px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+        }
+        h1{
+            color: rgb(43, 42, 42);
+        margin-top: 5px;
+        margin-left: 12px;
+        }
+        h2{
+        
+            margin-left: 5px;
+            margin-right: 5px;}
+            h3{
+        
+        margin-left: 10px;
+        }
+        .hi{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.87);
+            position: fixed;
+        }
